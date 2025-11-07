@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+
+version: 2
+
+models:
+    - name: GuestRelationReviewAnalysis
+      description: "last insertion des reviews"
+=======
 version: 2
 
 sources:
@@ -10,6 +18,7 @@ sources:
 models:
     - name: GuestRelationReviewAnalysis
       description: "Last insertion of all reviews"
+>>>>>>> 266454183e42464e7bd82bc0a77aa35193f2a61b
       columns:
           - name: id
             description: "The primary key for this table"

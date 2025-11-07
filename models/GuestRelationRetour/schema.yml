@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: GuestRelationRetourXano
+    description: "polarity of reviews"
+    config:
+      schema: dbt_datateam_test2   # <- dataset ciblé
+      materialized: table          # facultatif si déjà défini ailleurs
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - not_null
