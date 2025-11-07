@@ -82,3 +82,4 @@ CASE WHEN sub_category IN ("Hygiene", "Sanitary Safety", "Pandemic Precautions",
 group by 1, 2, 3, 4 ) b
 on a.BQV2=b.ID)
 where polarity is not null
+
