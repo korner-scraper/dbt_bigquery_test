@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 
---create table `korner-datalake.ReviewInsight.GuestRelation_ReviewAnalysis_maxInsertion` as
 
 {{ 
     config(
